@@ -35,3 +35,6 @@ for(const task of taskBox){
         activityLogContainer.appendChild(p);
     })
 }
+document.getElementById('blog-box').addEventListener('click', function(){
+    window.location.href = 'blog.html'
+})
