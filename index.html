@@ -14,11 +14,12 @@
         body{
             font-family: "Poppins", sans-serif;
         }
-        :disabled{
-            background-color: #3751fd33;
-        }
         button:hover{
             cursor: pointer;
+        }
+        button[disabled='true']{
+            background-color: #3751fd33;
+            cursor: not-allowed;
         }
     </style>
 </head>
