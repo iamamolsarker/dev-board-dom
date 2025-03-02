@@ -35,8 +35,3 @@ for(const task of taskBox){
         activityLogContainer.appendChild(p);
     })
 }
-document.getElementById('clear-history-btn').addEventListener('click', function(){
-    console.log('history click')
-    const activityLogContainer = document.getElementById('activity-log-container');
-    activityLogContainer.innerHTML = '';
-})
